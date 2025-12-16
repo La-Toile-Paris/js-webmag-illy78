@@ -1,0 +1,239 @@
+{
+  "title": "Science & Étrange",
+  "strap": "Curiosités, phénomènes et théories",
+  "logo": "assets/images/logo.svg",
+  "cta": {
+    "text": "Explorer les mystères",
+    "label": "S'abonner"
+  },
+
+
+
+
+
+
+
+  "lead": {
+    "headline": "2025 : entre folklore et labos",
+    "summary": "Mythes et sciences.",
+    "body": "Passerelles entre croyances et recherches contemporaines.",
+    "date": "1er Décembre 2025",
+    "topic": "Exploration",
+    "author": "Ilham",
+    "imageHero": "assets/texture/texture1.jpg",
+    "rating": 4.6,
+    "views": 9800,
+    "read": "6 min",
+    "tags": [
+      "folklore",
+      "science",
+      "mystères"
+    ],
+    "titre": "2025 : entre folklore et labos",
+    "description": "Mythes et sciences.",
+    "corps": "Passerelles entre croyances et recherches contemporaines.",
+    "theme": "Exploration",
+    "auteur": "Ilham"
+  },
+
+
+
+
+
+  "stories": [
+    {
+      "headline": "Phénomènes",
+      "summary": "Cas intrigants.",
+      "body": "Études et hypothèses.",
+      "date": "28 Novembre 2025",
+      "topic": "Cas",
+      "author": "Rédaction",
+      "image": "assets/texture/texture2.png",
+      "rating": 4.5,
+      "views": 8200,
+      "read": "5 min",
+      "titre": "Phénomènes",
+      "description": "Cas intrigants.",
+      "corps": "Études et hypothèses.",
+      "theme": "Cas",
+      "auteur": "Rédaction"
+    },
+    {
+      "headline": "Lieux mystérieux",
+      "summary": "Sites et récits.",
+      "body": "Cartes et témoignages.",
+      "date": "24 Novembre 2025",
+      "topic": "Exploration",
+      "author": "Ilham",
+      "image": "assets/texture/texture3.jpg",
+      "rating": 4.4,
+      "views": 7600,
+      "read": "5 min",
+      "titre": "Lieux mystérieux",
+      "description": "Sites et récits.",
+      "corps": "Cartes et témoignages.",
+      "theme": "Exploration",
+      "auteur": "Ilham"
+    },
+    {
+      "headline": "Théories et débats",
+      "summary": "Approches scientifiques.",
+      "body": "Méthodes et limites.",
+      "date": "20 Novembre 2025",
+      "topic": "Théories",
+      "author": "Rédaction",
+      "image": "assets/texture/texture4.jpg",
+      "rating": 4.3,
+      "views": 7100,
+      "read": "4 min",
+      "titre": "Théories et débats",
+      "description": "Approches scientifiques.",
+      "corps": "Méthodes et limites.",
+      "theme": "Théories",
+      "auteur": "Rédaction"
+    },
+    {
+      "headline": "Folklore et science",
+      "summary": "Passerelles.",
+      "body": "Exemples documentés.",
+      "date": "16 Novembre 2025",
+      "topic": "Culture",
+      "author": "Ilham",
+      "image": "assets/texture/texture5.jpg",
+      "rating": 4.6,
+      "views": 8400,
+      "read": "6 min",
+      "titre": "Folklore et science",
+      "description": "Passerelles.",
+      "corps": "Exemples documentés.",
+      "theme": "Culture",
+      "auteur": "Ilham"
+    },
+    {
+      "headline": "Cas célèbres",
+      "summary": "Analyses critiques.",
+      "body": "Enquêtes croisés.",
+      "date": "12 Novembre 2025",
+      "topic": "Cas",
+      "author": "Rédaction",
+      "image": "assets/texture/texture6.jpg",
+      "rating": 4.2,
+      "views": 6200,
+      "read": "4 min",
+      "titre": "Cas célèbres",
+      "description": "Analyses critiques.",
+      "corps": "Enquêtes croisés.",
+      "theme": "Cas",
+      "auteur": "Rédaction"
+    }
+  ],
+
+
+  
+
+
+  "topics": [
+    {
+      "title": "Théories",
+      "desc": "Approches et débats.",
+      "icon": "🧪",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#6B7280",
+      "nom": "Théories",
+      "description": "Approches et débats."
+    },
+    {
+      "title": "Cas",
+      "desc": "Phénomènes et analyses.",
+      "icon": "🛰️",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#3B82F6",
+      "nom": "Cas",
+      "description": "Phénomènes et analyses."
+    },
+    {
+      "title": "Exploration",
+      "desc": "Lieux et récits.",
+      "icon": "🧭",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#10B981",
+      "nom": "Exploration",
+      "description": "Lieux et récits."
+    },
+    {
+      "title": "Culture",
+      "desc": "Folklore et mythes.",
+      "icon": "📚",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#F59E0B",
+      "nom": "Culture",
+      "description": "Folklore et mythes."
+    },
+    {
+      "title": "Méthodes",
+      "desc": "Protocole et limites.",
+      "icon": "🧰",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#8B5CF6",
+      "nom": "Méthodes",
+      "description": "Protocole et limites."
+    },
+    {
+      "title": "Archives",
+      "desc": "Dossiers et sources.",
+      "icon": "🗃️",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#EF4444",
+      "nom": "Archives",
+      "description": "Dossiers et sources."
+    }
+  ],
+
+
+
+
+  "contributors": [
+    {
+      "firstName": "Ilham",
+      "expertise": "Curieuse scientifique",
+      "bio": "Analyses et vulgarisation.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "ilham@science.com",
+      "articles": 14,
+      "followers": 3700,
+      "prenom": "Ilham",
+      "nom": "",
+      "typeExperience": "Curieuse scientifique",
+      "presentation": "Analyses et vulgarisation.",
+      "image": "assets/texture/texture7.jpg"
+    },
+    {
+      "firstName": "Alex",
+      "expertise": "Chercheur",
+      "bio": "Méthodes et protocoles.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "alex@lab.org",
+      "articles": 12,
+      "followers": 3100,
+      "prenom": "Alex",
+      "nom": "Boyer",
+      "typeExperience": "Chercheur",
+      "presentation": "Méthodes et protocoles.",
+      "image": "assets/texture/texture7.jpg"
+    },
+    {
+      "firstName": "Mira",
+      "expertise": "Archiviste",
+      "bio": "Sources et dossiers.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "mira@archives.org",
+      "articles": 13,
+      "followers": 3300,
+      "prenom": "Mira",
+      "nom": "Khan",
+      "typeExperience": "Archiviste",
+      "presentation": "Sources et dossiers.",
+      "image": "assets/texture/texture7.jpg"
+    }
+  ]
+}
