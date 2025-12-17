@@ -134,7 +134,7 @@ p {
 }
 
 .nav-theme-btn {
-   background-c'"éolor: var(--color-secondary);
+   background-color: var(--color-secondary);
    color: var(--text-white);
    border: 2px solid var(--color-secondary);
    padding: 0.6rem 1.2rem;
