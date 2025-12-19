@@ -1,18 +1,18 @@
 /* CSS VARIABLES */
 :root {
    /* Colors */
-   --color-primary: #2a2a2a;
-   --color-secondary: #666;
-   --color-white: #fff;
+   --color-primary: #37497d;
+   --color-secondary: #949da9;
+   --color-white: #ffffff;
    
    /* Backgrounds */
-   --bg-light: #f5f5f5;
-   --bg-lighter: #ddd;
+   --bg-light: #0a0e1a;
+   --bg-lighter: #1e293b;
    
    /* Text */
-   --text-dark: #2a2a2a;
-   --text-light: #666;
-   --text-white: #fff;
+   --text-dark: #ffffff;
+   --text-light: #bcc9dc;
+   --text-white: #ffffff;
    
    /* Spacing */
    --space-sm: 1rem;
@@ -29,7 +29,7 @@
    /* Other */
    --transition: 0.3s ease;
    --radius: 3px;
-   --shadow: 0 4px 6px rgba(0,0,0,0.1);
+   --shadow: 0 4px 6px rgba(0,0,0,0.5);
 }
 
 /* RESET & BASE */
@@ -40,10 +40,16 @@
 }
 
 body {
-   font-family: Arial, Helvetica, sans-serif;
-   line-height: 1.6;
+   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+   line-height: 1.7;
    color: var(--text-dark);
-   background-color: var(--bg-light);
+   background: linear-gradient(180deg, #703db8 0%, #1a1c2c 50%, #61379f 100%);
+   /* Indispensable pour que le dégradé ne se répète pas si la page est longue */
+   background-attachment: fixed;
+   /* Assure que le fond couvre au moins toute la hauteur de l'écran */
+   min-height: 100vh;
+
+
 }
 
 img {
@@ -68,19 +74,19 @@ img {
 h1 {
    font-size: var(--text-xxl);
    margin-bottom: var(--space-sm);
-   color: var(--text-dark);
+   color: var(--color-white);
 }
 
 h2 {
    font-size: var(--text-xl);
    margin-bottom: var(--space-sm);
-   color: var(--text-dark);
+   color: var(--color-white);
 }
 
 h3 {
    font-size: var(--text-lg);
    margin-bottom: var(--space-sm);
-   color: var(--text-dark);
+   color: var(--color-white);
 }
 
 p {
@@ -92,16 +98,16 @@ p {
    text-align: center;
    margin-bottom: var(--space-lg);
    font-size: var(--text-xl);
-   color: var(--text-dark);
+   color: var(--color-white);
 }
 
 /* HEADER */
 .header {
-   background-color: var(--color-primary);
+   background-color: transparent;
    color: var(--text-white);
    padding: var(--space-lg) 0;
    text-align: center;
-   border-bottom: 4px solid var(--color-secondary);
+   border-bottom: 4px solid  #e6d79d;
 }
 
 .header h1 {
@@ -111,14 +117,14 @@ p {
 }
 
 #phrase-accroche {
-   color: var(--bg-lighter);
+   color:  #e6d79d;
    font-size: var(--text-base);
    font-style: italic;
 }
 
 /* NAVIGATION BAR */
 .navbar {
-   background-color: var(--color-primary);
+   background-color: transparent;
    padding: var(--space-sm) 0;
    border-bottom: 2px solid var(--color-secondary);
    position: sticky;
@@ -135,6 +141,8 @@ p {
 
 .nav-theme-btn {
    background-color: var(--color-secondary);
+   opacity: 0.8;
+   box-shadow: 0 0 1px 1px rgb(228 215 158);
    color: var(--text-white);
    border: 2px solid var(--color-secondary);
    padding: 0.6rem 1.2rem;
@@ -147,18 +155,18 @@ p {
 
 .nav-theme-btn:hover {
    background-color: var(--color-primary);
-   border-color: var(--bg-lighter);
+   border-color:  #e6d79d;
 }
 
 .nav-theme-btn.active {
    background-color: var(--color-white);
-   color: var(--text-dark);
+   color: var(--color-primary);
    border-color: var(--color-white);
 }
 
 /* HERO SECTION */
 .hero {
-   background-color: var(--color-white);
+   background-color: transparent;
    padding: 0;
    border-bottom: 3px solid var(--bg-lighter);
 }
@@ -183,6 +191,7 @@ p {
 
 #hero-titre {
    font-size: var(--text-xxl);
+   text-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Effet nébuleuse */
    margin-bottom: var(--space-sm);
    line-height: 1.3;
 }
@@ -200,7 +209,7 @@ p {
 }
 
 #hero-auteur strong {
-   color: var(--text-dark);
+   color: #e6d79d;
 }
 
 .read-article-btn {
@@ -216,14 +225,14 @@ p {
 }
 
 .read-article-btn:hover {
-   background-color: var(--color-secondary);
-   transform: translateY(-2px);
+   background-color:  #e6d79d;
+   color: var(--color-primary);
 }
 
 /* BADGES */
 .theme-badge {
    display: inline-block;
-   background-color: var(--color-secondary);
+   background-color: #7c3aed;
    color: var(--text-white);
    padding: 0.3rem 0.8rem;
    font-size: var(--text-sm);
@@ -243,7 +252,7 @@ p {
 /* ARTICLES SECTION */
 .articles-section {
    padding: var(--space-lg) 0;
-   background-color: var(--bg-light);
+   background-color: transparent;
 }
 
 .articles-grid {
@@ -253,7 +262,7 @@ p {
 }
 
 .article-card {
-   background-color: var(--color-white);
+   background-color: var(--bg-lighter);
    border: 1px solid var(--bg-lighter);
    overflow: hidden;
    transition: transform var(--transition), box-shadow var(--transition);
@@ -295,7 +304,7 @@ p {
 
 .article-author {
    font-size: var(--text-sm);
-   color: var(--text-light);
+   color:  #e6d79d;
    margin-bottom: var(--space-sm);
 }
 
@@ -313,13 +322,14 @@ p {
 }
 
 .read-btn:hover {
-   background-color: var(--color-primary);
+   background-color:  #e6d79d;
+   color: var(--color-primary);
 }
 
 /* THEMES SECTION */
 .themes-section {
    padding: var(--space-lg) 0;
-   background-color: var(--bg-lighter);
+   background-color: transparent);
 }
 
 .themes-list {
@@ -329,9 +339,9 @@ p {
 }
 
 .theme-item {
-   background-color: var(--color-white);
+   background-color: var(--bg-lighter);
    padding: var(--space-md);
-   border-left: 4px solid var(--color-secondary);
+   border-left: 4px solid  #e6d79d;
    box-shadow: var(--shadow);
    display: flex;
    flex-direction: column;
@@ -345,7 +355,7 @@ p {
 }
 
 .theme-item h3 {
-   color: var(--text-dark);
+   color: var(--color-white);
    margin-bottom: 0.8rem;
    font-size: var(--text-lg);
 }
@@ -358,7 +368,7 @@ p {
 /* AUTHORS SECTION */
 .authors-section {
    padding: var(--space-lg) 0;
-   background-color: var(--color-white);
+   background-color: transparent;
 }
 
 .authors-list {
@@ -370,7 +380,7 @@ p {
 .author-card {
    flex: 1;
    max-width: 350px;
-   background-color: var(--bg-light);
+   background-color: var(--bg-lighter);
    padding: var(--space-md);
    text-align: center;
    border: 1px solid var(--bg-lighter);
@@ -383,17 +393,17 @@ p {
    border-radius: 50%;
    object-fit: cover;
    margin: 0 auto var(--space-md);
-   border: 3px solid var(--bg-lighter);
+   border: 3px solid  #e6d79d;
 }
 
 .author-card h3 {
    font-size: 1.5rem;
    margin-bottom: var(--space-sm);
-   color: var(--text-dark);
+   color: var(--color-white);
 }
 
 .author-role {
-   color: var(--text-light);
+   color:  #e6d79d;
    font-weight: bold;
    text-transform: uppercase;
    font-size: var(--text-sm);
@@ -423,13 +433,13 @@ p {
 }
 
 .author-socials a:hover {
-   color: var(--text-dark);
+   color:  #e6d79d;
 }
 
 /* CALL TO ACTION */
 .cta-section {
    padding: var(--space-lg) 0;
-   background-color: var(--color-primary);
+   background-color: transparent;
    color: var(--text-white);
    text-align: center;
 }
@@ -443,7 +453,7 @@ p {
 .cta-button {
    background-color: var(--color-secondary);
    color: var(--text-white);
-   border: 2px solid var(--color-white);
+   border: 2px solid  #e6d79d;
    padding: var(--space-sm) var(--space-lg);
    font-size: var(--text-base);
    cursor: pointer;
@@ -453,13 +463,13 @@ p {
 }
 
 .cta-button:hover {
-   background-color: var(--color-white);
-   color: var(--text-dark);
+   background-color:  #e6d79d;
+   color: var(--color-primary);
 }
 
 /* FOOTER */
 .footer {
-   background-color: var(--color-primary);
+   background-color:transparent;
    color: var(--bg-lighter);
    padding: var(--space-md) 0;
    text-align: center;
@@ -467,5 +477,5 @@ p {
 }
 
 .footer p {
-   color: var(--bg-lighter);
+   color: var(--text-light);
 }
