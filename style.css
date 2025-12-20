@@ -40,14 +40,20 @@
 }
 
 body {
-   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+   font-family: monospace;
    line-height: 1.7;
    color: var(--text-dark);
-   background: linear-gradient(180deg, #703db8 0%, #1a1c2c 50%, #61379f 100%);
-   /* Indispensable pour que le dégradé ne se répète pas si la page est longue */
+   /* background: linear-gradient(180deg, #703db8 0%, #1a1c2c 50%, #61379f 100%);*/
    background-attachment: fixed;
-   /* Assure que le fond couvre au moins toute la hauteur de l'écran */
    min-height: 100vh;
+
+
+   background-image: url('assets/space.jpg');
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+   
 
 
 }
@@ -95,12 +101,33 @@ p {
 }
 
 .section-title {
+   font-family: 'Science Gothic';
    text-align: center;
    margin-bottom: var(--space-lg);
    font-size: var(--text-xl);
    color: var(--color-white);
 }
+.science-gothic-main {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Remplace <weight> par un chiffre entre 100 et 900 */
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
 
+.science-gothic-main {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
 /* HEADER */
 .header {
    background-color: transparent;
@@ -111,6 +138,7 @@ p {
 }
 
 .header h1 {
+  font-family: "Science Gothic", sans-serif;
    color: var(--text-white);
    font-size: 3rem;
    letter-spacing: 2px;
@@ -140,10 +168,12 @@ p {
 }
 
 .nav-theme-btn {
+   /*  font-family: "Science Gothic", sans-serif; */
    background-color: var(--color-secondary);
-   opacity: 0.8;
-   box-shadow: 0 0 1px 1px rgb(228 215 158);
-   color: var(--text-white);
+   opacity: 0.85;
+   border-radius: 10px;
+   box-shadow: 0 0 1px 1px rgb( 215 158);
+   color: var(--text-white);228
    border: 2px solid var(--color-secondary);
    padding: 0.6rem 1.2rem;
    cursor: pointer;
@@ -213,9 +243,10 @@ p {
 }
 
 .read-article-btn {
-   background-color: var(--color-primary);
+   font-family: "Science Gothic", sans-serif;
+   background-color: #37497d5c;
    color: var(--text-white);
-   border: none;
+   border: 2px solid #e6d79d66;
    padding: var(--space-sm) 2.5rem;
    font-size: var(--text-base);
    cursor: pointer;
@@ -232,7 +263,7 @@ p {
 /* BADGES */
 .theme-badge {
    display: inline-block;
-   background-color: #7c3aed;
+   background-color: #00e1ff70;
    color: var(--text-white);
    padding: 0.3rem 0.8rem;
    font-size: var(--text-sm);
@@ -262,12 +293,13 @@ p {
 }
 
 .article-card {
-   background-color: var(--bg-lighter);
-   border: 1px solid var(--bg-lighter);
-   overflow: hidden;
-   transition: transform var(--transition), box-shadow var(--transition);
-   display: flex;
-   flex-direction: column;
+      background-color: var(--bg-lighter);
+    box-shadow: 0 0 10px 2px rgb(230 215 157 / 30%);
+    border: 1px solid var(--bg-lighter);
+    overflow: hidden;
+    transition: transform var(--transition), box-shadow var(--transition);
+    display: flex;
+    flex-direction: column;
 }
 
 .article-card:hover {
@@ -277,7 +309,7 @@ p {
 
 .article-card img {
    width: 100%;
-   height: 200px;
+   height: 00px;
    object-fit: cover;
    border-bottom: 1px solid var(--bg-lighter);
 }
@@ -287,6 +319,7 @@ p {
    display: flex;
    flex-direction: column;
    flex-grow: 1;
+   justify-content: space-evenly;
 }
 
 .article-content h3 {
@@ -311,7 +344,7 @@ p {
 .read-btn {
    background-color: var(--color-secondary);
    color: var(--text-white);
-   border: none;
+   border: 2px solid #e6d79d66;
    padding: 0.7rem var(--space-md);
    cursor: pointer;
    text-transform: uppercase;
@@ -341,7 +374,7 @@ p {
 .theme-item {
    background-color: var(--bg-lighter);
    padding: var(--space-md);
-   border-left: 4px solid  #e6d79d;
+   border-left: 4px solid #e6d79d42;
    box-shadow: var(--shadow);
    display: flex;
    flex-direction: column;
@@ -350,8 +383,19 @@ p {
 }
 
 .theme-icon {
-   font-size: 3rem;
-   margin-bottom: var(--space-sm);
+    font-size: 3rem;
+    margin-bottom: var(--space-sm);
+    border-radius: 45px;
+    padding: 15px;
+    border: #00e1ff70 solid 2px;
+    background-color: rgb(157 230 228 / 26%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px 2px rgba(0, 225, 255, 0.6), inset 0 0 10px rgba(0, 225, 255, 0.4);
+    color: rgb(122 193 192);
+    text-shadow: 0 0 12px rgb(12 196 216 / 72%);
 }
 
 .theme-item h3 {
@@ -380,7 +424,7 @@ p {
 .author-card {
    flex: 1;
    max-width: 350px;
-   background-color: var(--bg-lighter);
+   background-color: #1e293b94;
    padding: var(--space-md);
    text-align: center;
    border: 1px solid var(--bg-lighter);
@@ -393,7 +437,7 @@ p {
    border-radius: 50%;
    object-fit: cover;
    margin: 0 auto var(--space-md);
-   border: 3px solid  #e6d79d;
+   border: 0px solid #e6d79d66;
 }
 
 .author-card h3 {
@@ -445,15 +489,15 @@ p {
 }
 
 #call-to-action p {
-   font-size: var(--text-lg);
-   color: var(--text-white);
-   margin-bottom: var(--space-md);
+    font-size: var(--text-base);
+    color: #e6d79d;
+    margin-bottom: var(--space-md);
 }
 
 .cta-button {
-   background-color: var(--color-secondary);
+   background-color: var(--color-primary);
    color: var(--text-white);
-   border: 2px solid  #e6d79d;
+   border: 2px solid #e6d79d66;
    padding: var(--space-sm) var(--space-lg);
    font-size: var(--text-base);
    cursor: pointer;

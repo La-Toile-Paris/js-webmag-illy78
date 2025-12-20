@@ -125,7 +125,7 @@ function getData() {
       let auteurs = data.contributors
 
       auteurs.forEach(auteur => {
-        let auteurImage     = auteur.image
+        let auteurImage     = auteur.avatar
         let auteurNom       = auteur.nom
         let auteurPrenom    = auteur.prenom
         let auteurRole      = auteur.expertise

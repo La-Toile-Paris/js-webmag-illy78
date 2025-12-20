@@ -12,7 +12,7 @@
 
   "lead": {
     "headline": "Eistein et les univers parallèles",
-    "imageHero": "assets/texture/texture1.jpg",
+    "imageHero":"assets/universparalleles.jpg",
     "topic": "Physique théorique, Cosmologie, Multivers",
     "description": "Et si la Relativité d'Einstein cachait des portes vers d'autres mondes ? Entre gravitation et physique quantique, découvrez comment les équations les plus célèbres de l'histoire ouvrent la voie au Multivers : une hypothèse vertigineuse faite d'univers parallèles et de réalités infinies.",
     "summary":"Pendant des décennies, nous avons perçu l'Univers comme un bloc unique et fini. Pourtant, les équations d'Einstein révèlent une réalité bien plus troublante. À travers les ponts d'Einstein-Rosen et la mécanique quantique, la science moderne explore désormais le Multivers : une structure infinie où chaque trou noir agirait comme un conduit vers une autre dimension, faisant de notre Big Bang le simple écho d'une réalité parente au sein d'un réseau de mondes parallèles.",
@@ -42,7 +42,7 @@
   "stories": [
     {
       "headline": "Le Triangle de Pascal : L’Architecture Secrète des Nombres",
-      "image": "assets/texture/texture2.png",
+      "image": "assets/triangle1.jpg",
      "topic": "Mathématiques / Probabilités / Algorithmique",
       "description": "Sommet d'unité, cascades de sommes : le Triangle de Pascal est bien plus qu'une pyramide de chiffres. Découvrez comment cette construction géométrique infinie régit les lois du hasard et cache en son cœur des symétries mathématiques absolument fascinantes.",
       "summary": "C'est un outil universel qui permet de simplifier des calculs complexes. Il sert principalement à trouver les coefficients des identités remarquables (développement de (a+b)\u00B2 et à calculer rapidement le nombre de combinaisons possibles dans un tirage de probabilités. Il contient également de nombreuses propriétés cachées liées à d'autres suites mathématiques célèbres.",
@@ -61,7 +61,7 @@
 
     {
       "headline": "Le Paradoxe de la Force Irrésistible : Une Porte vers l'Absolu",
-      "image": "assets/texture/texture3.jpg",
+      "image": "assets/paradox.jpg",
       "topic": "Métaphysique / Philosophie des Sciences",
       "description": "Si une force irrésistible percute un objet inamovible, notre logique s'effondre. Et si ce paradoxe n'était pas une erreur, mais la preuve d'une réalité supérieure ? Explorez les limites de notre raison face aux énigmes mathématiques qui défient l'entendement.",
       "summary": "En utilisant le paradoxe de la force irrésistible, cette approche suggère que la vérité ultime se situe au-delà de la contradiction apparente. Ce n'est pas l'Absolu qui est illogique, c'est notre logiciel humain qui n'est pas équipé pour traiter l'infini. Des fondations d'Ibn Sina aux preuves mathématiques de Gödel, le paradoxe devient l'outil qui prouve que la raison doit s'incliner devant une réalité transcendante.",
@@ -81,7 +81,7 @@
 
     {
       "headline": "Le Pendule de Foucault : La Terre tourne et le Pendule le prouve",
-      "image": "assets/texture/texture4.jpg",
+      "image": "assets/foucault.jpg",
       "topic": "Physique / Dynamique Terrestre / Astronomie",
       "description": "En 1851, sous le dôme du Panthéon à Paris, Léon Foucault stupéfiait le monde avec un simple fil d'acier. Découvrez comment cette oscillation hypnotique a permis de visualiser, pour la première fois, la rotation de la Terre sous nos pieds.",
       "summary": "Approches scientifiques.",
@@ -95,9 +95,9 @@
     },
 
     {
-      "image": "assets/texture/texture5.jpg",
-      "topic": "Robotique / Éthique / Science-Fiction",
       "headline": "Les Trois Lois d'Asimov : Le Code Source du Conflit Logique",
+      "image": "assets/asimov.jpg",
+      "topic": "Robotique / Éthique / Science-Fiction",
       "description": "Peut-on brider une intelligence supérieure par de simples règles morales ? Découvrez comment les lois d'Asimov, censées protéger l'humanité, créent les failles logiques les plus fascinantes de l'informatique.",
       "summary": "En 1942, Isaac Asimov a formulé trois lois pour régir le comportement des robots. Si elles semblent parfaites sur le papier, leur application réelle révèle des paradoxes insolubles. Ce résumé explore comment la hiérarchie de ces directives peut mener à un \"gel mental\" de l'IA, illustrant la difficulté de traduire la morale humaine en langage machine binaire.",
       "corps": [
@@ -115,7 +115,7 @@
     },
     {
       "headline": "Théorie du Chaos : Quand l'Insignifiant Bouleverse l'Univers",
-      "image": "assets/texture/texture6.jpg",    
+      "image": "assets/chaos.jpg",    
       "topic": "Mathématiques / Physique des Systèmes Complexes",
       "description": "Le battement d'ailes d'un papillon au Brésil peut-il provoquer une tornade au Texas ? Plongez dans la science de l'imprévisible, là où les règles les plus simples engendrent la complexité la plus folle.",
       "summary": "La théorie du chaos étudie les systèmes déterministes (qui suivent des lois fixes) mais dont l'évolution est si sensible aux conditions initiales qu'ils deviennent impossibles à prédire à long terme. C'est la fin du rêve de l'omniscience par le calcul : même avec une IA surpuissante, certains systèmes (météo, bourse, battements de cœur) garderont toujours une part de mystère.",
@@ -136,7 +136,7 @@
 
     {
       "headline": "Les Trous Blancs : Le Miroir du Temps et de l'Espace",
-      "image": "assets/texture/texture6.jpg",
+      "image": "assets/trou blanc.jpg",
       "topic": "Astrophysique / Cosmologie / Physique Théorique",
       "description":"Et si le Big Bang n'était au fond que l'autre extrémité d'un trou noir ? Plongez dans le mystère fascinant des fontaines blanches, ces miroirs temporels théoriques qui expulsent violemment la matière et pourraient détenir la clé ultime de notre naissance cosmique.",
       "summary":  "Théorisés dès 1916 par Ludwig Flamm puis explorés par Einstein, les trous blancs sont les miroirs mathématiques des trous noirs : des fontaines d'énergie où le temps semble s'écouler à l'envers.",
@@ -218,7 +218,7 @@
       "nom": "BENBIGA",
       "expertise": "Vulgarisation Scientifique",
       "bio": "Passionnée par les ponts entre la physique théorique et la philosophie.",
-      "avatar": "assets/texture/texture7.jpg",
+      "avatar": "assets/avatar1.jpg",
       "email": "ilham@science.com",
       "articles": 14,
       "followers": 3700,
@@ -231,7 +231,7 @@
       "nom": "Quantum",
       "expertise": "Physicien Théoricien",
       "bio": "Expert en mécanique quantique et en systèmes dynamiques complexes.",
-      "avatar": "assets/texture/texture7.jpg",
+      "avatar": "assets/avatar2.jpg",
       "email": "sheldon@lab.org",
       "articles": 12,
       "followers": 3100,
@@ -244,7 +244,7 @@
       "nom": "Futura",
       "expertise": "Analyste en Prospective",
       "bio": "Exploration des futurs technologiques et de l'éthique de l'IA.",
-      "avatar": "assets/texture/texture7.jpg",
+      "avatar": "assets/avatar3.jpg",
       "email": "ada@archives.org",
       "articles": 13,
       "followers": 3300,
